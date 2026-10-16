@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0",
+  "release_notes": "Baseline pubblica. Al primo update verranno compilati patch/installer.",
+  "patch": null,
+  "installer": null
+}
