@@ -1,6 +1,11 @@
 {
-  "version": "0.1.0",
-  "release_notes": "Baseline pubblica. Al primo update verranno compilati patch/installer.",
-  "patch": null,
+  "version": "0.1.2",
+  "release_notes": "ProgeoView 0.1.2\n\n- Menu: modulo Cross attivo (Siesview + Cross)\n- Fix: migrazione automatica update.json se punta ancora a example.com\n- Messaggi aggiornamenti piu chiari in caso di errore di rete/manifest",
+  "patch": {
+    "from_version": "0.1.0",
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.2/ProgeoView_patch_0.1.0_to_0.1.2.zip",
+    "sha256": "ec8404803b21b40f48f1f831aa2da4983a1dab25b6b28546120cfb7da7cbcfe4",
+    "size_bytes": 19505413
+  },
   "installer": null
 }
