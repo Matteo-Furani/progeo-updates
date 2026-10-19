@@ -31,13 +31,6 @@
       "size_bytes": 19516379
     },
     {
-      "from_version": null,
-      "to_version": "0.1.3",
-      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.3/ProgeoView_patch_0.1.0_to_0.1.3.zip",
-      "sha256": "8f10bb3c32b8c595bfaee1272d5f63faa3068ba791cdb4f35d231e331aca010e",
-      "size_bytes": 19526091
-    },
-    {
       "from_version": "0.1.0",
       "to_version": "0.1.4",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.4/ProgeoView_patch_0.1.0_to_0.1.4.zip",
@@ -64,21 +57,14 @@
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.4/ProgeoView_patch_0.1.3_to_0.1.4.zip",
       "sha256": "ad2443f7e9516e27b5698d09ae0d34a9eab58e0fb82e1a8ac30d738e04d2782e",
       "size_bytes": 19585459
-    },
-    {
-      "from_version": null,
-      "to_version": "0.1.4",
-      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.4/ProgeoView_patch_0.1.0_to_0.1.4.zip",
-      "sha256": "e5c09366accaa4d637857d630088eb40ba1f202a97dfa229f9f8a2cd14e0ea06",
-      "size_bytes": 19570079
     }
   ],
   "patch": {
     "from_version": null,
     "to_version": "0.1.4",
     "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.4/ProgeoView_patch_0.1.0_to_0.1.4.zip",
-    "sha256": "e5c09366accaa4d637857d630088eb40ba1f202a97dfa229f9f8a2cd14e0ea06",
-    "size_bytes": 19570079
+    "sha256": "bbe2dd7f8ecbc2d150ee010afe6550d6f5394e6ab99388e8253a76fd025a34b5",
+    "size_bytes": 19602435
   },
   "installer": null
 }
