@@ -1,6 +1,6 @@
 {
   "version": "0.1.4",
-  "release_notes": "ProgeoView 0.1.4\n\n- Fix crash Cross: KeyError 'viridis' (ObsPy colormap sotto PyInstaller)\n- Cross si apre correttamente dalla suite installata",
+  "release_notes": "ProgeoView 0.1.4\n\n- Fix crash Cross: KeyError 'viridis' (niente import obspy.signal)\n- Fix patch su Program Files: richiesta UAC + versione AppData solo se la copia riesce\n- Accetta UAC quando richiesto, altrimenti i file non vengono aggiornati",
   "patches": [
     {
       "from_version": "0.1.0",
@@ -41,29 +41,36 @@
       "from_version": "0.1.0",
       "to_version": "0.1.4",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.4/ProgeoView_patch_0.1.0_to_0.1.4.zip",
-      "sha256": "e5c09366accaa4d637857d630088eb40ba1f202a97dfa229f9f8a2cd14e0ea06",
-      "size_bytes": 19570079
+      "sha256": "bbe2dd7f8ecbc2d150ee010afe6550d6f5394e6ab99388e8253a76fd025a34b5",
+      "size_bytes": 19602435
     },
     {
       "from_version": "0.1.1",
       "to_version": "0.1.4",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.4/ProgeoView_patch_0.1.0_to_0.1.4.zip",
-      "sha256": "e5c09366accaa4d637857d630088eb40ba1f202a97dfa229f9f8a2cd14e0ea06",
-      "size_bytes": 19570079
+      "sha256": "bbe2dd7f8ecbc2d150ee010afe6550d6f5394e6ab99388e8253a76fd025a34b5",
+      "size_bytes": 19602435
     },
     {
       "from_version": "0.1.2",
       "to_version": "0.1.4",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.4/ProgeoView_patch_0.1.0_to_0.1.4.zip",
-      "sha256": "e5c09366accaa4d637857d630088eb40ba1f202a97dfa229f9f8a2cd14e0ea06",
-      "size_bytes": 19570079
+      "sha256": "bbe2dd7f8ecbc2d150ee010afe6550d6f5394e6ab99388e8253a76fd025a34b5",
+      "size_bytes": 19602435
     },
     {
       "from_version": "0.1.3",
       "to_version": "0.1.4",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.4/ProgeoView_patch_0.1.3_to_0.1.4.zip",
-      "sha256": "5270857f812eb1ad9f28fc364971eb982861fd1d1b8e6b1d25bbf7889e5ef2a2",
-      "size_bytes": 19553105
+      "sha256": "ad2443f7e9516e27b5698d09ae0d34a9eab58e0fb82e1a8ac30d738e04d2782e",
+      "size_bytes": 19585459
+    },
+    {
+      "from_version": null,
+      "to_version": "0.1.4",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.4/ProgeoView_patch_0.1.0_to_0.1.4.zip",
+      "sha256": "e5c09366accaa4d637857d630088eb40ba1f202a97dfa229f9f8a2cd14e0ea06",
+      "size_bytes": 19570079
     }
   ],
   "patch": {
