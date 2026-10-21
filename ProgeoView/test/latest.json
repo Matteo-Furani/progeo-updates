@@ -1,6 +1,6 @@
 {
-  "version": "0.1.5",
-  "release_notes": "[CANALE TEST] ProgeoView 0.1.5\n\n- Menu laterale collassabile + Alt+F aggiornamento test\n- Riavvio automatico dopo patch/installer\n- Griglia reciproca: zoom, pan Ctrl, tip FAIL\n- Autosave FBP e import cartella pi\u00f9 fluidi\n- Preferenze colori FAIL semplificate",
+  "version": "0.1.6",
+  "release_notes": "[CANALE TEST] ProgeoView 0.1.6 - menu UI, scorciatoie C/Z, delete FBP, sync FBP, dialoghi IT, ordine shot griglia/GEO",
   "patches": [
     {
       "from_version": "0.1.0",
@@ -99,14 +99,63 @@
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.5/ProgeoView_patch_0.1.4_to_0.1.5.zip",
       "sha256": "68aa477f0726c7933b0244601dce1a4dd2d6d709842c9434d11e6232cfd72e97",
       "size_bytes": 19974378
+    },
+    {
+      "from_version": null,
+      "to_version": "0.1.5",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.5/ProgeoView_patch_0.1.0_to_0.1.5.zip",
+      "sha256": "22ca2b684413a940d51ee939f2a22740c45bcf12148ed7a49a16ce06ee5a81b7",
+      "size_bytes": 20055148
+    },
+    {
+      "from_version": "0.1.0",
+      "to_version": "0.1.6",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
+      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
+      "size_bytes": 20136265
+    },
+    {
+      "from_version": "0.1.1",
+      "to_version": "0.1.6",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
+      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
+      "size_bytes": 20136265
+    },
+    {
+      "from_version": "0.1.2",
+      "to_version": "0.1.6",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
+      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
+      "size_bytes": 20136265
+    },
+    {
+      "from_version": "0.1.3",
+      "to_version": "0.1.6",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
+      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
+      "size_bytes": 20136265
+    },
+    {
+      "from_version": "0.1.4",
+      "to_version": "0.1.6",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
+      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
+      "size_bytes": 20136265
+    },
+    {
+      "from_version": "0.1.5",
+      "to_version": "0.1.6",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.5_to_0.1.6.zip",
+      "sha256": "c66c3180aee5537e9b1b120544b164e8e6c48e82e7e102031e4032e54d3da49d",
+      "size_bytes": 20019030
     }
   ],
   "patch": {
     "from_version": null,
-    "to_version": "0.1.5",
-    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.5/ProgeoView_patch_0.1.0_to_0.1.5.zip",
-    "sha256": "22ca2b684413a940d51ee939f2a22740c45bcf12148ed7a49a16ce06ee5a81b7",
-    "size_bytes": 20055148
+    "to_version": "0.1.6",
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
+    "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
+    "size_bytes": 20136265
   },
   "installer": null
 }
