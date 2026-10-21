@@ -1,6 +1,6 @@
 {
   "version": "0.1.6",
-  "release_notes": "[CANALE TEST] ProgeoView 0.1.6 - menu UI, scorciatoie C/Z, delete FBP, sync FBP, dialoghi IT, ordine shot griglia/GEO",
+  "release_notes": "[CANALE TEST] ProgeoView 0.1.6 \u00d4\u00c7\u00f6 fix UAC apply_patch + features 0.1.6",
   "patches": [
     {
       "from_version": "0.1.0",
@@ -111,8 +111,8 @@
       "from_version": "0.1.0",
       "to_version": "0.1.6",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
-      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
-      "size_bytes": 20136265
+      "sha256": "8c638f64bb67a3694deb8fecbe83f11a95e84c81476f825c2a35bde2d2681aa6",
+      "size_bytes": 20136825
     },
     {
       "from_version": "0.1.1",
@@ -146,16 +146,23 @@
       "from_version": "0.1.5",
       "to_version": "0.1.6",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.5_to_0.1.6.zip",
-      "sha256": "c66c3180aee5537e9b1b120544b164e8e6c48e82e7e102031e4032e54d3da49d",
-      "size_bytes": 20019030
+      "sha256": "129173aec37bfe74d0c960cc9473906875771a20ed14c230fa3091912c5a14f2",
+      "size_bytes": 20025145
+    },
+    {
+      "from_version": null,
+      "to_version": "0.1.6",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
+      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
+      "size_bytes": 20136265
     }
   ],
   "patch": {
-    "from_version": null,
+    "from_version": "0.1.5",
     "to_version": "0.1.6",
     "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
-    "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
-    "size_bytes": 20136265
+    "sha256": "8c638f64bb67a3694deb8fecbe83f11a95e84c81476f825c2a35bde2d2681aa6",
+    "size_bytes": 20136825
   },
   "installer": null
 }
