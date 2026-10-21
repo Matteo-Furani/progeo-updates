@@ -1,6 +1,6 @@
 {
   "version": "0.1.6",
-  "release_notes": "[CANALE TEST] ProgeoView 0.1.6 completa: prompt Salva break, GEO invertibile, fix UAC. Update da 0.1.5 via installer.",
+  "release_notes": "[CANALE TEST] ProgeoView 0.1.6 completa: feature (Salva break, GEO invertibile) + codice senza .py app in chiaro. Da 0.1.5: update via installer (Alt+F).",
   "patches": [
     {
       "from_version": "0.1.0",
@@ -111,8 +111,8 @@
   "patch": null,
   "installer": {
     "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_Setup.exe",
-    "sha256": "b5c7c5576d9eac13571e540b8e2851e42d8291927a920148db8316d23d0f48b8",
-    "size_bytes": 204236227,
+    "sha256": "5f15747a880293b76c5589759ddfad4438933bb9e1f52c687ce417f1c6b835fc",
+    "size_bytes": 203600083,
     "timeout_s": 600
   }
 }
