@@ -1,6 +1,6 @@
 {
-  "version": "0.1.5",
-  "release_notes": "ProgeoView 0.1.5\n\n- Menu laterale collassabile + Alt+F canale aggiornamento test\n- Riavvio automatico dopo patch/installer\n- Griglia reciproca: zoom, pan Ctrl, tip FAIL\n- Autosave FBP e import cartella pi\u00f9 fluidi\n- Preferenze colori FAIL semplificate",
+  "version": "0.1.6",
+  "release_notes": "ProgeoView 0.1.6\\n\\n- Prompt Salva/Non salvare break (sync off)\\n- Export GEO/Excel: ordine shot + invertibile\\n- Menu aggiornato; codice non piu in .py in chiaro\\n- Upgrade da 0.1.5 via installer (pulizia residui)",
   "patches": [
     {
       "from_version": "0.1.0",
@@ -99,14 +99,20 @@
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.5/ProgeoView_patch_0.1.4_to_0.1.5.zip",
       "sha256": "68aa477f0726c7933b0244601dce1a4dd2d6d709842c9434d11e6232cfd72e97",
       "size_bytes": 19974378
+    },
+    {
+      "from_version": null,
+      "to_version": "0.1.5",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.5/ProgeoView_patch_0.1.0_to_0.1.5.zip",
+      "sha256": "22ca2b684413a940d51ee939f2a22740c45bcf12148ed7a49a16ce06ee5a81b7",
+      "size_bytes": 20055148
     }
   ],
-  "patch": {
-    "from_version": null,
-    "to_version": "0.1.5",
-    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.5/ProgeoView_patch_0.1.0_to_0.1.5.zip",
-    "sha256": "22ca2b684413a940d51ee939f2a22740c45bcf12148ed7a49a16ce06ee5a81b7",
-    "size_bytes": 20055148
-  },
-  "installer": null
+  "patch": null,
+  "installer": {
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_Setup.exe",
+    "sha256": "e1a69d395a2961d7749ebc9e3a3102525fd99c54474a7b24ce685ebcaaacfb99",
+    "size_bytes": 203634978,
+    "timeout_s": 600
+  }
 }
