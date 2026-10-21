@@ -118,29 +118,29 @@
       "from_version": "0.1.1",
       "to_version": "0.1.6",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
-      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
-      "size_bytes": 20136265
+      "sha256": "8c638f64bb67a3694deb8fecbe83f11a95e84c81476f825c2a35bde2d2681aa6",
+      "size_bytes": 20136825
     },
     {
       "from_version": "0.1.2",
       "to_version": "0.1.6",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
-      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
-      "size_bytes": 20136265
+      "sha256": "8c638f64bb67a3694deb8fecbe83f11a95e84c81476f825c2a35bde2d2681aa6",
+      "size_bytes": 20136825
     },
     {
       "from_version": "0.1.3",
       "to_version": "0.1.6",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
-      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
-      "size_bytes": 20136265
+      "sha256": "8c638f64bb67a3694deb8fecbe83f11a95e84c81476f825c2a35bde2d2681aa6",
+      "size_bytes": 20136825
     },
     {
       "from_version": "0.1.4",
       "to_version": "0.1.6",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
-      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
-      "size_bytes": 20136265
+      "sha256": "8c638f64bb67a3694deb8fecbe83f11a95e84c81476f825c2a35bde2d2681aa6",
+      "size_bytes": 20136825
     },
     {
       "from_version": "0.1.5",
@@ -153,8 +153,8 @@
       "from_version": null,
       "to_version": "0.1.6",
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_patch_0.1.0_to_0.1.6.zip",
-      "sha256": "1a11868ca7e2806c1257e23d5e81596debd45fdd0ff8337ce23363aac93d0a84",
-      "size_bytes": 20136265
+      "sha256": "8c638f64bb67a3694deb8fecbe83f11a95e84c81476f825c2a35bde2d2681aa6",
+      "size_bytes": 20136825
     }
   ],
   "patch": {
