@@ -1,6 +1,6 @@
 {
-  "version": "0.1.6",
-  "release_notes": "[CANALE TEST] 0.1.6: installer pulisce i .py vecchi in upgrade; feature complete.",
+  "version": "0.1.7",
+  "release_notes": "[CANALE TEST] ProgeoView 0.1.7\n\n- Morfologia POST diga/conci: pezzo sotto-concio come Excel (dist pianta + col. G)\n- Profilo: retta di collegamento sotto il blocco; lunghezza = max pianta\n- Hit-test dromo con dist_tot non monotono (click X → traccia corretta)\n- Import Excel: sniff fogli leggero, parse completo solo dopo la scelta\n- Export GEO: tolto dialog ordine shot (inversione solo in-app)\n- Filtro: «Annulla filtro»; asse spettro a Nyquist all’apertura\n- FAIL reciproci sul sismogramma: colori = sposta in basso / in alto\n- Fix critici: override shot dopo reload cartella; stream copiato nel worker\n- Dialog attesa: meno alert WM_DESTROY su reparent Windows",
   "patches": [
     {
       "from_version": "0.1.0",
@@ -106,13 +106,33 @@
       "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.5/ProgeoView_patch_0.1.0_to_0.1.5.zip",
       "sha256": "22ca2b684413a940d51ee939f2a22740c45bcf12148ed7a49a16ce06ee5a81b7",
       "size_bytes": 20055148
+    },
+    {
+      "from_version": "0.1.6",
+      "to_version": "0.1.7",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.7/ProgeoView_patch_0.1.6_to_0.1.7.zip",
+      "sha256": "b2a38c0caf6df384cade2186c2f8725111b983fcbde14c249d4a96a97687ce83",
+      "size_bytes": 19568279
+    },
+    {
+      "from_version": "0.1.0",
+      "to_version": "0.1.7",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.7/ProgeoView_patch_0.1.0_to_0.1.7.zip",
+      "sha256": "866455e32715e7ad613e53d2b4c656e741490b740968ce2f22dff3c9c7198a09",
+      "size_bytes": 19568590
     }
   ],
-  "patch": null,
+  "patch": {
+    "from_version": null,
+    "to_version": "0.1.7",
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.7/ProgeoView_patch_0.1.0_to_0.1.7.zip",
+    "sha256": "866455e32715e7ad613e53d2b4c656e741490b740968ce2f22dff3c9c7198a09",
+    "size_bytes": 19568590
+  },
   "installer": {
-    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.6/ProgeoView_Setup.exe",
-    "sha256": "e1a69d395a2961d7749ebc9e3a3102525fd99c54474a7b24ce685ebcaaacfb99",
-    "size_bytes": 203634978,
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.7/ProgeoView_Setup.exe",
+    "sha256": "dc4a763375b9c33d1d673fa8bee47ab61ba7c3af40625e79fc78a7f9fe89064a",
+    "size_bytes": 203598850,
     "timeout_s": 600
   }
 }
