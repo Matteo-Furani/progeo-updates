@@ -1,6 +1,6 @@
 {
-  "version": "0.1.8",
-  "release_notes": "[CANALE TEST] ProgeoView 0.1.8\n\n- Verifica automatica post-patch (SHA file dopo robocopy)\n- Dialog al riavvio: aggiornamento OK oppure incompleto\n- Fallback automatico all'installer se la patch fallisce (UAC/verify)\n- Smoke SHA sullo zip patch in fase di publish",
+  "version": "0.1.9",
+  "release_notes": "[CANALE TEST] ProgeoView 0.1.9\n\n- Fix critico updater: gli aggiornamenti puntano SEMPRE a Program Files\n  (non pi\u00c3\u00b9 alla cartella del codice se apri da Cursor/Python)\n- Avviso chiaro se parti dal sorgente; log di ogni tentativo in\n  %LOCALAPPDATA%\\ProgeoView\\logs\\patch_apply.log\n- Installer: /DIR esplicito + watcher che riavvia l'exe installato",
   "patches": [
     {
       "from_version": "0.1.0",
@@ -202,18 +202,100 @@
           "sha256": "6cc2ee289d2e89df0a90e4b6d313414e7bae70b954c6f4af855b004becf20711"
         }
       ]
+    },
+    {
+      "from_version": null,
+      "to_version": "0.1.8",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.8/ProgeoView_patch_0.1.0_to_0.1.8.zip",
+      "sha256": "37f7a7501c7281e131d47a1fb7c0f7393a56baaa80b51d8fdec1ac9921e0bb11",
+      "size_bytes": 19576222
+    },
+    {
+      "from_version": "0.1.8",
+      "to_version": "0.1.9",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.9/ProgeoView_patch_0.1.8_to_0.1.9.zip",
+      "sha256": "c3be532b950d8eab35283e5099eee5bc2a21df1035a1ba68111e42186aaf544d",
+      "size_bytes": 19577669,
+      "verify_files": [
+        {
+          "path": "_internal/base_library.zip",
+          "sha256": "144e42f47a274ffe024ac9b5c9051a0eadbfbe3c8acff9394c40c567b1c57032"
+        },
+        {
+          "path": "_internal/config/version.json",
+          "sha256": "0669d889afbe03ba37290dae5599bab6e8c432153070559aa2ca7972e378dcd2"
+        },
+        {
+          "path": "ProgeoView.exe",
+          "sha256": "df78cba9a8f22aeadfeb2265eb0c2035c0a7ec250123d7dc023738e7cbe0e190"
+        }
+      ]
+    },
+    {
+      "from_version": "0.1.6",
+      "to_version": "0.1.9",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.9/ProgeoView_patch_0.1.6_to_0.1.9.zip",
+      "sha256": "5e434b290a25db29fc4c3c85b88a923f5dd29a9de4b45e1bdc33d07d49a8f175",
+      "size_bytes": 19578080,
+      "verify_files": [
+        {
+          "path": "_internal/base_library.zip",
+          "sha256": "144e42f47a274ffe024ac9b5c9051a0eadbfbe3c8acff9394c40c567b1c57032"
+        },
+        {
+          "path": "_internal/config/trace_display.json",
+          "sha256": "8c1913facf5e6c8bea14e15b688d8c45ffbfb8299f05095ac3376489e9e061fc"
+        },
+        {
+          "path": "_internal/config/version.json",
+          "sha256": "0669d889afbe03ba37290dae5599bab6e8c432153070559aa2ca7972e378dcd2"
+        },
+        {
+          "path": "ProgeoView.exe",
+          "sha256": "df78cba9a8f22aeadfeb2265eb0c2035c0a7ec250123d7dc023738e7cbe0e190"
+        }
+      ]
+    },
+    {
+      "from_version": "0.1.0",
+      "to_version": "0.1.9",
+      "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.9/ProgeoView_patch_0.1.0_to_0.1.9.zip",
+      "sha256": "8e79399bef17eb8db88378cb4cc23200ffd016dc19229e367349f81fa56a9b5e",
+      "size_bytes": 19578389,
+      "verify_files": [
+        {
+          "path": "_internal/base_library.zip",
+          "sha256": "144e42f47a274ffe024ac9b5c9051a0eadbfbe3c8acff9394c40c567b1c57032"
+        },
+        {
+          "path": "_internal/config/patch_probe.txt",
+          "sha256": "0a52059947b3127001adef4fa9d8f7338a7a1f068eff07b2c29c3b4abfd50c02"
+        },
+        {
+          "path": "_internal/config/trace_display.json",
+          "sha256": "8c1913facf5e6c8bea14e15b688d8c45ffbfb8299f05095ac3376489e9e061fc"
+        },
+        {
+          "path": "_internal/config/version.json",
+          "sha256": "0669d889afbe03ba37290dae5599bab6e8c432153070559aa2ca7972e378dcd2"
+        },
+        {
+          "path": "ProgeoView.exe",
+          "sha256": "df78cba9a8f22aeadfeb2265eb0c2035c0a7ec250123d7dc023738e7cbe0e190"
+        }
+      ]
     }
   ],
   "patch": {
     "from_version": null,
-    "to_version": "0.1.8",
-    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.8/ProgeoView_patch_0.1.0_to_0.1.8.zip",
-    "sha256": "37f7a7501c7281e131d47a1fb7c0f7393a56baaa80b51d8fdec1ac9921e0bb11",
-    "size_bytes": 19576222,
+    "to_version": "0.1.9",
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.9/ProgeoView_patch_0.1.0_to_0.1.9.zip",
+    "sha256": "8e79399bef17eb8db88378cb4cc23200ffd016dc19229e367349f81fa56a9b5e",
+    "size_bytes": 19578389,
     "verify_files": [
       {
         "path": "_internal/base_library.zip",
-        "sha256": "0e3f7e754f9ff45173085b926c0a979905c37440e9a568da6fa0bd57b0acbba9"
+        "sha256": "144e42f47a274ffe024ac9b5c9051a0eadbfbe3c8acff9394c40c567b1c57032"
       },
       {
         "path": "_internal/config/patch_probe.txt",
@@ -225,18 +307,18 @@
       },
       {
         "path": "_internal/config/version.json",
-        "sha256": "df435b1e5f01e2aa8561a495b89de2320b4aba53aed9890fd34bd043b3bc7efa"
+        "sha256": "0669d889afbe03ba37290dae5599bab6e8c432153070559aa2ca7972e378dcd2"
       },
       {
         "path": "ProgeoView.exe",
-        "sha256": "6cc2ee289d2e89df0a90e4b6d313414e7bae70b954c6f4af855b004becf20711"
+        "sha256": "df78cba9a8f22aeadfeb2265eb0c2035c0a7ec250123d7dc023738e7cbe0e190"
       }
     ]
   },
   "installer": {
-    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.8/ProgeoView_Setup.exe",
-    "sha256": "56f1ce0b844ffc1562e5c5d9360c6e4ddc78694dabdef9e014115814773310da",
-    "size_bytes": 203612629,
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.9/ProgeoView_Setup.exe",
+    "sha256": "ca77f7448436f2f637d364d4a4422c9f6c3ea458bbcf61c7b892d67f92b10d3e",
+    "size_bytes": 203605091,
     "timeout_s": 600
   }
 }
