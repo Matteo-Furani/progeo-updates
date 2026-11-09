@@ -5,8 +5,8 @@
   "patch": null,
   "installer": {
     "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.2.1/ProgeoView_Setup_progeo_suite.exe",
-    "sha256": "9eadb5f6996f8d81de111efb023a540867b39c5e84c7d4839f153d016a6ce746",
-    "size_bytes": 238645889,
+    "sha256": "c601bbff9ca353eba1ae1df92895274ea51d7419028fec3018dfc7a9898e3dde",
+    "size_bytes": 238929226,
     "timeout_s": 600
   }
 }
