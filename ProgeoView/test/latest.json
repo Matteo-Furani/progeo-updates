@@ -1,12 +1,12 @@
 {
   "version": "0.2.1",
-  "release_notes": "[CANALE TEST] ProgeoView 0.2.1\n\n- Dopo l'installazione il programma si riapre da solo\n- La finestra di update resta su Download e poi passa a Spacchettamento e installazione\n- Cross chiuso e filtro FK inclusi in questa build",
+  "release_notes": "[CANALE TEST] ProgeoView 0.2.1\n\n- Dopo l'installazione il programma si riapre da solo\n- La finestra di update resta su Download e poi passa a Spacchettamento e installazione\n- L'updater si sposta fuori dalla cartella di installazione, cosi il Setup riesce a chiudere i file\n- Cross chiuso e filtro FK inclusi in questa build",
   "patches": [],
   "patch": null,
   "installer": {
     "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.2.1/ProgeoView_Setup_progeo_suite.exe",
-    "sha256": "193c63632eef92634af0e9475fc0ba4491c96f2b62254a83d676e1f6168be248",
-    "size_bytes": 238674939,
+    "sha256": "9eadb5f6996f8d81de111efb023a540867b39c5e84c7d4839f153d016a6ce746",
+    "size_bytes": 238645889,
     "timeout_s": 600
   }
 }
