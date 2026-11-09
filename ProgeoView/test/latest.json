@@ -1,12 +1,12 @@
 {
-  "version": "0.1.7",
-  "release_notes": "[CANALE TEST] ProgeoView 0.1.7\n\n- Updater: target sempre Program Files (non la cartella Cursor)\n- Fix UAC: Setup/helper con console visibile (prima l'update moriva in silenzio)\n- Verifica post-patch + log in %LOCALAPPDATA%\\ProgeoView\\logs\\patch_apply.log\n- Da 0.1.6: usa l'installer completo (pi\u00c3\u00b9 affidabile sui client vecchi)",
+  "version": "0.2.1",
+  "release_notes": "[CANALE TEST] ProgeoView 0.2.1\n\n- Dopo l'installazione il programma si riapre da solo\n- La finestra di update resta su Download e poi passa a Spacchettamento e installazione\n- Cross chiuso e filtro FK inclusi in questa build",
   "patches": [],
   "patch": null,
   "installer": {
-    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.7/ProgeoView_Setup.exe",
-    "sha256": "7ce7353a092949c962813a53cceddccee8cf0f9edcb165f32a2ec2aeaca57e0d",
-    "size_bytes": 203598926,
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.2.1/ProgeoView_Setup_progeo_suite.exe",
+    "sha256": "193c63632eef92634af0e9475fc0ba4491c96f2b62254a83d676e1f6168be248",
+    "size_bytes": 238674939,
     "timeout_s": 600
   }
 }
