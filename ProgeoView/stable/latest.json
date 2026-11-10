@@ -1,12 +1,12 @@
 {
-  "version": "0.2.3",
-  "release_notes": "ProgeoView 0.2.3\n\n- Filtro FK, con la correzione dell'area rossa\n- Cross chiuso\n- Dopo l'installazione il programma si riapre e la finestra mostra anche lo spacchettamento\n- F10 della singola traccia è spento",
+  "version": "0.2.4",
+  "release_notes": "ProgeoView 0.2.4\n\n- Annulla (Z) toglie il break al primo colpo\n- La conferma dei break mancanti scrive solo il file scelto\n- L'anteprima del filtro FK non blocca la finestra\n- Il cambio di Inizio/Fine e dei colori delle tracce è più rapido\n- Cross tiene in memoria il file pilota e l'elenco della cartella",
   "patches": [],
   "patch": null,
   "installer": {
-    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.2.3/ProgeoView_Setup_progeo_suite.exe",
-    "sha256": "629713dde9402a74bf1603d33ce4e979c573815b7c6de9298361bf81c586ab0a",
-    "size_bytes": 238916241,
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.2.4/ProgeoView_Setup_progeo_suite.exe",
+    "sha256": "d7935913a152395dad3c584afa5fb27879af4b0008df36f70ec2ca45c1466e18",
+    "size_bytes": 238947476,
     "timeout_s": 600
   }
 }
