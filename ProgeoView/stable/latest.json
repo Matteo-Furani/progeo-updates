@@ -1,12 +1,12 @@
 {
-  "version": "0.1.8",
-  "release_notes": "ProgeoView 0.1.8\n\nAggiornamento via installer completo (consigliato).\n\n- Toolbar: icone Ruota/Righello/Filtro/Velocita/Seleziona/Dromo + controlli Gain/Ini\n- Seleziona break con rubber-band (trascina area col sinistro)\n- Shift campioni default = 1; etichetta Fill neg\n- Fix e miglioramenti UI",
+  "version": "0.2.3",
+  "release_notes": "ProgeoView 0.2.3\n\n- Filtro FK, con la correzione dell'area rossa\n- Cross chiuso\n- Dopo l'installazione il programma si riapre e la finestra mostra anche lo spacchettamento\n- F10 della singola traccia è spento",
   "patches": [],
   "patch": null,
   "installer": {
-    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.1.8/ProgeoView_Setup.exe",
-    "sha256": "8bdb08f17b85208184e5702dc1890058204c07f9b1550d4b9e603509ed1a000b",
-    "size_bytes": 238544407,
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.2.3/ProgeoView_Setup_progeo_suite.exe",
+    "sha256": "629713dde9402a74bf1603d33ce4e979c573815b7c6de9298361bf81c586ab0a",
+    "size_bytes": 238916241,
     "timeout_s": 600
   }
 }

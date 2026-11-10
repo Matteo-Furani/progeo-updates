@@ -1,12 +1,12 @@
 {
-  "version": "0.2.2",
-  "release_notes": "[CANALE TEST] ProgeoView 0.2.2\n\n- Il filtro FK non va più in errore quando si disegna la zona da tagliare",
+  "version": "0.2.3",
+  "release_notes": "[CANALE TEST] ProgeoView 0.2.3, lo stesso installer del canale ufficiale.\n\n- Filtro FK, con la correzione dell'area rossa\n- Cross chiuso\n- Dopo l'installazione il programma si riapre e la finestra mostra anche lo spacchettamento\n- F10 della singola traccia è spento",
   "patches": [],
   "patch": null,
   "installer": {
-    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.2.2/ProgeoView_Setup_progeo_suite.exe",
-    "sha256": "dc30ccb87bea4015ec889ceec36b1e6e5dbfda379f5224d07147bd12e0193e0a",
-    "size_bytes": 238944502,
+    "url": "https://github.com/Matteo-Furani/progeo-updates/releases/download/ProgeoView-v0.2.3/ProgeoView_Setup_progeo_suite.exe",
+    "sha256": "629713dde9402a74bf1603d33ce4e979c573815b7c6de9298361bf81c586ab0a",
+    "size_bytes": 238916241,
     "timeout_s": 600
   }
 }
